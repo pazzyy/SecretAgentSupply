@@ -1,0 +1,99 @@
+html{
+font-size: 18px;
+
+}
+
+body{
+  color: white;
+  font-family: Helvetica;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+/* main site container */
+.site-container{
+  width: 960px;
+  margin: 0px auto;
+}
+
+/*black banner with logo*/
+
+.black-header{
+  background-color: black;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  padding: 0.66rem 0 0.66rem 0.5rem;
+}
+
+#logo img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+#logo span{
+  font-size: 1rem;
+}
+
+/*Image banner*/
+.banner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+}
+
+
+.intro-text{
+  background-color: black;
+  padding: 2rem 3rem;
+  position: relative;
+  width: 20rem;
+  top: 9rem;
+
+}
+
+.intro-text h4{
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1.33em 0;
+}
+
+.intro-text h1{
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.25em 0;
+  line-height: 1.2em;
+}
+
+/*Navigation*/
+
+nav{
+    background-color: firebrick;
+}
+
+#nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav span{
+  display: inline-block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+#nav span a{
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+  background-color: black;
+  text-align: left;
+  height: 5rem;
+  color: white;
+}
